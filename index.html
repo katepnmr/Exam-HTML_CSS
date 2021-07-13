@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4o-3ZdOgrIgTpcYIbjdwL17sJhrDjrmQ&callback=initMap"></script>
+
+<script>
+    function initMap() {
+    var coordinates = { lat: 59.93891241715393, ing: 30.32315839975585},
+    
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: coordinates
+        }),
+    
+        marker = new google.maps.Marker({
+            position: coordinates,
+            map: map
+        });
+
+        image = '../img/map-marker.png',
+        marker = new google.maps.Marker({
+        position: coordinates,
+        map: map,
+        icon: image
+        });
+    }
+</script> -->
+
+</head>
+<body>
+    <div class="main"> 
+        <div class="container">
+        <div class="header">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/nerds-logo.png" alt="logo"></a>
+                    </div>
+                    <nav class="navigation">
+                        <button class="nav__toggle"><label class="hamburger" for="nav__toggle">
+                        </label></button>
+                        <input type="checkbox" id="nav__toggle">
+                        <ul class="nav">
+                            <li><a href="#">Студия</a></li>
+                            <li><a href="#">Клиенты</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                        <div class="header__left">
+                            <a href="#"><img src="img/basket.png" alt="basket"</a>
+                            <a href="#">Корзина</a>
+                        </div>
+             </div>
+        </div>
+
+        <div class="content">
+                <h1>Долго, дорого, 
+                    скрупулезно.</h1>
+                <p>Математически выверенный дизайн 
+                    для вашего сайта или мобильного приложения.</p>
+                <button class="btn button__header">Узнать больше</button>
+             </div>
+         </div>
+    </div>
+
+
+    <div class="services">
+        <div class="container">
+            <div class="services__wrapper">
+                <div class="service web_sites">
+                    <img src="img/illustration-1.png" alt="service">
+                    <h3>Веб-сайты</h3>
+                    <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                    <button class="btn btn__services1">Заказать</button>
+                </div>
+                <div class="service apps">
+                    <img src="img/illustration-2.png" alt="service">
+                    <h3>Приложения</h3>
+                    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+                    <button class="btn btn__services2">Заказать</button>
+                </div>
+                <div class="service presentations">
+                    <img src="img/illustration-3.png" alt="service">
+                    <h3>Презентации</h3>
+                    <p>Вы даже не подозреваете, 
+                        насколько вы изумительны!</p>
+                    <button class="btn btn__services3">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__left">
+                    <h2>Мы — маленькая, но гордая
+                        дизайн-студия из Краснодара.</h2>
+                        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+                            превыше креатива. Работаем не покладая рук, как роботы.</p>
+                            <h5>Выполняем заказы на разработку:</h5>
+                            <ul class="about__list">
+                                <li>Веб-сайтов любой сложности</li>
+                                <li>Мобильных приложений для iOS и Android</li>
+                                <li>Слайдшоу и видео для корпоративных презентаций</li>
+                            </ul>
+                </div>
+                <div class="about__right">
+                    <img src="img/nerds-illustration.png" alt="Nerds">
+                    <h5>с 2004 года Любим точность во всем:</h5>
+                    <div class="percent">
+                        <div class="statistic">
+                            <h6>146<span>%</span></h6>
+                            <p>Уровень самоотдачи</p>
+                        </div>
+                        <div class="statistic">
+                            <h6>100<span>%</span></h6>
+                            <p>Соблюдение сроков</p>
+                        </div>
+                        <div  class="statistic">
+                            <h6>50<span>%</span></h6>
+                            <p>Минимальная предоплата</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="container">
+            <div class="brands__wrapper">
+                <a href="#"><img src="img/brand1.png" alt="Brand"></img></a>
+                <a href="#"><img src="img/brand2.png" alt="Brand"></img></a>
+                <a href="#"><img src="img/brand3.png" alt="Brand"></img></a>
+                <a href="#"><img src="img/brand4.png" alt="Brand"></img></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="flex-map">
+                <div class="block">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15989.141027657543!2d30.302576537063324!3d59.93807201366682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1625834009352!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+                <img src="img/map-marker.png" alt="marker">
+                </div>
+                <div class="nerds__contacts">
+                    <h6>NЁRDS DESIGN STUDIO</h6>
+                    <p>191186, Санкт-Петербург, 
+                        ул. Б. Конюшенная, д. 19/8</p>
+                    <p class="number">тел. +7 (812) 275-75-75</p>
+                    <button class="btn btn__footer">Напишите нам</button>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="social">
+                    <a href="#"><img src="img/vk-icon.png" alt="vk"></a>
+                    <a href="#"><img src="img/fb-icon.png" alt="fb"></a>
+                    <a href="#"><img src="img/insta-icon.png" alt="inst"></a>
+                </div>
+                <div class="promo">
+                    <h4>Давайте дружить, это выгодно!</h4>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

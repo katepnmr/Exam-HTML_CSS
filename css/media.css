@@ -1,0 +1,144 @@
+@media (max-width: 1030px) {
+    .nav__toggle {
+        display: inline-block;
+        margin-top: 40px;
+        top: 0;
+        right: 40px;
+        position: absolute;
+        z-index: 1;
+    }
+    .header__left {
+        margin-top: 10px;
+    }
+    .header__left a {
+        padding-bottom: 30px;
+    }
+    .navigation ul {
+        display: none;
+    }
+    #nav__toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav__toggle {
+        z-index: 1;
+    }
+    .navigation ul {
+        position: fixed;
+        top: 30px;
+        right: 0;
+        background-color: #000;
+        opacity: 0.9;
+        height: 100%;
+        margin-top: 10%;
+        padding: 0 7%;
+    }
+    .nav li:not(:last-child) {
+        margin-right: 0;
+    }
+    .nav li {
+        padding: 30px 0;
+    }
+    .nav a {
+        color: #fff;
+    }
+
+    .content {
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255, 0.9);
+        padding: 30px;
+    }
+    .content p {
+        color: #000;
+    }
+    .header__logo {
+        margin-top: -70px
+    }
+    .services__wrapper,
+    .about__wrapper,
+    .about__left  {   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__left {
+        max-width: 80%;
+    }
+    .service {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .flex-map {
+        padding: 45px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .nerds__contacts {
+        bottom: 45px;
+        left: 0;
+        font-size: 18px;
+        background-color: rgb(255, 255, 255, 0.9);
+    }
+    .block {
+        width: 100%;
+    }
+    .brands .container {
+        padding: 0;
+    }
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__wrapper .social {
+        padding-right: 0;
+        margin-bottom: 30px;
+    } 
+}
+
+@media (max-width: 770px) {
+    .brands__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .brands__wrapper a {
+        margin: 20px 0;
+    }
+    .flex-map {
+        padding: 45px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .nerds__contacts {
+        bottom: -10px;
+        left: 0;
+        position: relative;
+        color: #000;
+        font-size: 18px;
+        border: 1px solid #000;
+    }
+    .block {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 426px) {
+    p,
+    .btn {
+        font-size: 14px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .brands__wrapper img {
+        max-width: 250px;
+    }
+}
